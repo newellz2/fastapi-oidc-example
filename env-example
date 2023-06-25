@@ -1,0 +1,8 @@
+DEBUG=True
+BASE_URL=http://127.0.0.1:8000
+SECRET_KEY=sup3rSecr3t_
+OIDC_METADATA_URL=https://idp.example.com/realms/EXAMPLE/.well-known/openid-configuration
+OIDC_CLIENT_ID=example-client-id
+OIDC_CLIENT_SECRET=secret-key
+OIDC_REDIRECT_URL=http://127.0.0.1:8000/
+OIDC_SCOPE=openid profile email
